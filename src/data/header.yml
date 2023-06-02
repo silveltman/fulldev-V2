@@ -1,0 +1,10 @@
+links:
+  - text: Home
+    href: /
+  - text: About
+    href: /about
+  - text: Products
+    href: /products
+button_1:
+  text: Contact
+  href: /contact

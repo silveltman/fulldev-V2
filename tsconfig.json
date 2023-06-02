@@ -1,0 +1,26 @@
+{
+  "extends": "astro/tsconfigs/base",
+  "compilerOptions": {
+    "strictNullChecks": true,
+    "baseUrl": ".",
+    "paths": {
+      "@layouts/*": [
+        "src/layouts/*"
+      ],
+      "@components/*": [
+        "src/components/*"
+      ],
+      "@data/*": [
+        "src/data/*"
+      ],
+      "@content/*": [
+        "src/content/*"
+      ]
+    },
+    // "types": [
+    //   "@modyfi/vite-plugin-yaml/modules"
+    //   ],
+  },
+  "include": ["src/**/*", "node_modules/fulldev-ui/dist/**/*.d.ts"],
+
+}

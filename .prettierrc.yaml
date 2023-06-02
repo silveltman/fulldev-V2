@@ -1,0 +1,11 @@
+tabWidth: 2
+semi: false
+singleQuote: true
+trailingComma: 'es5'
+singleAttributePerLine: true
+plugins:
+  - 'prettier-plugin-astro'
+  - 'prettier-plugin-svelte'
+  - 'prettier-plugin-tailwindcss'
+pluginSearchDirs: false
+tailwindConfig: './tailwind.config.cjs'

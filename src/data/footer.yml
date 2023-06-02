@@ -1,0 +1,20 @@
+lists:
+  - heading: Products
+    links:
+      - text: Product A
+        href: /product-A
+      - text: Product B
+        href: /product-B
+      - text: Product C
+        href: /product-C
+      - text: Product D
+        href: /product-D
+
+  - heading: Company
+    links:
+      - text: About
+        href: /about
+      - text: Careers
+        href: /careers
+      - text: Contact
+        href: /contact

@@ -1,0 +1,28 @@
+---
+import site from '@data/site'
+import Head from '@components/helpers/Head.astro'
+
+const { seo } = Astro.props
+---
+
+<!DOCTYPE html>
+<html
+  lang={site.lang}
+  class="color-scheme-light light medium"
+>
+  <head>
+    <Head {seo} />
+  </head>
+  <body class="">
+    <slot />
+    <style>
+      /* Temporary, untill we cleaner solution. Needed to set the browsers scrollbar color theme */
+      .color-scheme-dark {
+        color-scheme: dark;
+      }
+      .color-scheme-light {
+        color-scheme: light;
+      }
+    </style>
+  </body>
+</html>

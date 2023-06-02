@@ -1,0 +1,12 @@
+---
+import Blocks from '@components/helpers/Blocks.astro'
+import { getEntryBySlug } from 'astro:content'
+import Layout from '@layouts/Layout.astro'
+
+const page = await getEntryBySlug('pages', 'index')
+---
+
+<Layout seo={page.data.seo}>
+  <!-- Custom component go here -->
+  <Blocks pageData={page.data} />
+</Layout>
