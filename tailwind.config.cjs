@@ -19,7 +19,7 @@ module.exports = {
   theme: {
     fontFamily: {
       heading: '"Montserrat", sans-serif',
-      subheading: '"Roboto Mono", sans-serif',
+      subheading: '"Montserrat", sans-serif',
       base: '"Montserrat", sans-serif',
       button: '"Montserrat", sans-serif',
     },
@@ -27,7 +27,7 @@ module.exports = {
       heading: 700,
       subheading: 600,
       base: 400,
-      button: 500,
+      button: 600,
     },
     lineHeight: {
       heading: 1.125,
@@ -35,11 +35,11 @@ module.exports = {
       base: 1.625,
     },
     borderRadius: {
-      box: '24px',
-      card: '12px',
-      button: '8px',
+      box: '16px',
+      card: '8px',
+      button: '16px',
       input: '8px',
-      image: '4px',
+      image: '8px',
     },
   },
   plugins: [
@@ -54,7 +54,7 @@ module.exports = {
           name: 'light',
           extend: {
             colors: {
-              base: getRadixColors(radixColors.slate),
+              base: getRadixColors(radixColors.mauve),
               'base-9-content': 'white',
             },
           },
@@ -63,25 +63,25 @@ module.exports = {
           name: 'dark',
           extend: {
             colors: {
-              base: getRadixColors(radixColors.slateDark),
+              base: getRadixColors(radixColors.mauveDark),
               'base-9-content': 'white',
             },
           },
         },
         {
-          name: 'light-indigo',
+          name: 'light-primary',
           extend: {
             colors: {
-              base: getRadixColors(radixColors.indigo),
+              base: getRadixColors(radixColors.tomato),
               'base-9-content': 'white',
             },
           },
         },
         {
-          name: 'dark-indigo',
+          name: 'dark-primary',
           extend: {
             colors: {
-              base: getRadixColors(radixColors.indigoDark),
+              base: getRadixColors(radixColors.tomatoDark),
               'base-9-content': 'white',
             },
           },
