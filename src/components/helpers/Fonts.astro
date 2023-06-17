@@ -1,0 +1,23 @@
+---
+import site from '@data/site'
+import { constructURL, isValidURL } from 'google-fonts-helper'
+import { GoogleFontsOptimizer } from 'astro-google-fonts-optimizer'
+
+const { variant, sizes, weight, grade } = site.materialSymbols
+const symbolsUrl = `https://fonts.googleapis.com/css2?family=Material+Symbols+${variant}:opsz,wght,FILL,GRAD@${
+  sizes ? '24' : '20..48'
+},${weight},0..1,${grade}`
+
+const fontsUrl: string | false = constructURL({ families: site.googleFonts })
+const isValid = isValidURL(fontsUrl.toString())
+---
+
+<!-- Google fonts -->{
+  fontsUrl && isValid && <GoogleFontsOptimizer url={fontsUrl} />
+}
+
+<!-- Material Symbols -->
+<link
+  rel="stylesheet"
+  href={symbolsUrl}
+/>

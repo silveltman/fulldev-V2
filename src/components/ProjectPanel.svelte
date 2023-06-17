@@ -1,6 +1,5 @@
 <script lang="ts">
   import { Panel, Ratio, Image, Heading, Text } from 'fulldev-ui'
-  import { IconEye } from '@tabler/icons-svelte'
 
   export let content: any
   export let ratio: number
@@ -10,7 +9,7 @@
   as="a"
   href={content.href}
   target="_blank"
-  class="group !p-0 large"
+  class="group !p-0 shadow-2xl large"
 >
   <Ratio {ratio}>
     <Image
@@ -24,11 +23,11 @@
   <div
     class="absolute inset-0 flex h-full w-full items-center justify-center opacity-0 transition-opacity group-hover:opacity-75"
   >
-    <IconEye
+    <!-- <IconEye
       class="relative text-white  transition-opacity"
       size={40}
       stroke={1}
-    />
+    /> -->
   </div>
   <Heading
     secondary

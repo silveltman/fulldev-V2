@@ -1,18 +1,18 @@
 <script lang="ts">
-  import { Container, Flow, Section, Heading, Text } from 'fulldev-ui'
-  import { IconCircleCheck } from '@tabler/icons-svelte'
+  import { Container, Stack, Section, Heading, Text, Icon } from 'fulldev-ui'
+  // import { IconCircleCheck } from '@tabler/icons-svelte'
 
   export let content: any
 </script>
 
 <Section class="pt-0">
   <Container>
-    <Flow row>
+    <Stack row>
       {#each content.cols as col}
         <div class="flex">
-          <IconCircleCheck
+          <Icon
+            name="check_circle"
             class="light-primary mr-sm mt-xs shrink-0 text-base-9"
-            size={24}
           />
           <div>
             <Heading
@@ -27,6 +27,6 @@
           </div>
         </div>
       {/each}
-    </Flow>
+    </Stack>
   </Container>
 </Section>

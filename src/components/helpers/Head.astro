@@ -1,7 +1,7 @@
 ---
-import GoogleFonts from './GoogleFonts.astro'
 import site from '@data/site'
 import { SEO } from 'astro-seo'
+import Fonts from './Fonts.astro'
 
 const pageSeo = Astro.props.seo
 const defaultSeo = {
@@ -31,4 +31,4 @@ const mergedSeo = {
 />
 
 <SEO {...mergedSeo} />
-<GoogleFonts />
+<Fonts />

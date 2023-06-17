@@ -18,16 +18,16 @@ module.exports = {
   darkMode: 'class',
   theme: {
     fontFamily: {
-      heading: '"Montserrat", sans-serif',
-      subheading: '"Montserrat", sans-serif',
-      base: '"Montserrat", sans-serif',
-      button: '"Montserrat", sans-serif',
+      heading: '"Inter", sans-serif',
+      subheading: '"Inter", sans-serif',
+      base: '"Inter", sans-serif',
+      button: '"Inter", sans-serif',
     },
     fontWeight: {
-      heading: 700,
+      heading: 600,
       subheading: 600,
       base: 400,
-      button: 600,
+      button: 500,
     },
     lineHeight: {
       heading: 1.125,
@@ -35,10 +35,10 @@ module.exports = {
       base: 1.625,
     },
     borderRadius: {
-      box: '16px',
-      card: '8px',
-      button: '16px',
-      input: '8px',
+      box: '12px',
+      card: '12px',
+      button: '12px',
+      input: '12px',
       image: '8px',
     },
   },

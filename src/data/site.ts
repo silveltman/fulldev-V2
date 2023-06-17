@@ -1,8 +1,19 @@
+type FontWeight = 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900
+type SymbolWeight = 100 | 200 | 300 | 400 | 500 | 600 | 700
+type Grade = -25 | 0 | 200
+
 interface GoogleFonts {
   [family: string]: {
-    wght: number[]
-    ital?: number[]
+    wght: FontWeight[]
+    ital: FontWeight[]
   }
+}
+
+interface materialSymbols {
+  variant: 'Outlined' | 'Rounded' | 'Sharp'
+  weight: SymbolWeight
+  grade: Grade
+  sizes: boolean
 }
 
 interface Site {
@@ -12,6 +23,7 @@ interface Site {
   logo: string
   lang: string
   googleFonts: GoogleFonts
+  materialSymbols: materialSymbols
 }
 
 const site: Site = {
@@ -21,13 +33,16 @@ const site: Site = {
   logo: '/logo.svg',
   lang: 'nl',
   googleFonts: {
-    Montserrat: {
+    Inter: {
       wght: [100, 200, 300, 400, 500, 600, 700, 800, 900],
-      ital: [400],
+      ital: [],
     },
-    // 'Roboto Mono': {
-    //   wght: [400],
-    // },
+  },
+  materialSymbols: {
+    variant: 'Rounded',
+    weight: 400,
+    grade: 0,
+    sizes: false,
   },
 }
 

@@ -16,7 +16,7 @@
 
 <Section class="dark pt-lg">
   <Container>
-    <Panel class="!py-2xl large">
+    <Panel class="!py-2xl shadow-2xl large">
       <Flow
         center
         row

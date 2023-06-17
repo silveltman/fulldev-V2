@@ -1,28 +1,51 @@
 <script lang="ts">
-  import { Section, Container, Highlight, Split, Button, Box } from 'fulldev-ui'
+  import {
+    Section,
+    Container,
+    Highlight,
+    Button,
+    Panel,
+    Stack,
+    Image,
+    Heading,
+    Text,
+  } from 'fulldev-ui'
 
   export let content: any
 </script>
 
-<Section class="dark">
+<Section
+  id="koffie"
+  class="py-3xl"
+>
   <Container>
-    <Box>
-      <Highlight center>
-        <span class="text-sm text-base-11">Lorem ipsum</span>
-        <h2 class="dark text-base-12">{content.heading}</h2>
-        <p class="dark text-base-12">{content.textarea}</p>
-        <svelte:fragment slot="footer">
-          <Button
-            class="dark-indigo"
-            variant="solid"
-            {...content.button_1}
+    <Panel class="dark-primary relative !overflow-visible shadow-2xl lg:py-2xl">
+      <Stack
+        row
+        class="items-center"
+      >
+        <Highlight class="lg:max-w-lg">
+          <Heading>{content.heading}</Heading>
+          <Text>{content.textarea}</Text>
+          <svelte:fragment slot="actions">
+            <Button
+              class="dark-primary"
+              variant="solid"
+              {...content.button_1}
+            />
+            <!-- <Button
+              class="dark-primary"
+              {...content.button_1}
+            /> -->
+          </svelte:fragment>
+        </Highlight>
+        <div class="-right-px h-[150%] lg:absolute lg:w-1/2">
+          <Image
+            class="lg:h-full lg:w-full lg:object-cover"
+            {...content.image}
           />
-          <Button
-            class="dark-indigo"
-            {...content.button_1}
-          />
-        </svelte:fragment>
-      </Highlight>
-    </Box>
+        </div>
+      </Stack>
+    </Panel>
   </Container>
 </Section>
