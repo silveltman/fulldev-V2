@@ -69,13 +69,13 @@ blocks:
     cards:
       - heading: Aloys Spijkerman
         textarea: Sil heeft voor ons de site chaletsinfriesland gemaakt naar zeer tevredenheid. Wij zijn hem ook dankbaar dat hij voor de verhuur smoobu heeft geadviseerd. Er is geen betere!
-      - heading: Diny Bakker.
+      - heading: Diny Bakker
         textarea: Fulldev heeft een zeer prettige en persoonlijke benadering! Er wordt goed geluisterd naar de wensen en de visie van de klant. Met als resultaat een zeer originele website die opvalt! Ik ben er erg blij mee!
       - heading: Jesse van Dillen
         textarea: Zeer prettige samenwerking! Duidelijke communicatie, uitleg en bewerkingsprogramma’s. Zeer tevreden met het samen behaalde resultaat
-      - heading: Arnik Rusthoven.
+      - heading: Arnik Rusthoven
         textarea: Zeer duidelijke communicatie en een goed eindresultaat!
-      - heading: Richard Veltman.
+      - heading: Richard Veltman
         textarea: Goede service, denken goed mee en zeer flexibel. Aanrader!
 
   cta:
