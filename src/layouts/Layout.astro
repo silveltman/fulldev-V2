@@ -1,6 +1,7 @@
 ---
 import site from '@data/site'
 import Head from '@components/helpers/Head.astro'
+import TheHeader from '@components/TheHeader.svelte'
 
 const { seo } = Astro.props
 ---
@@ -14,6 +15,7 @@ const { seo } = Astro.props
     <Head {seo} />
   </head>
   <body class="">
+    <TheHeader />
     <slot />
     <style>
       /* Temporary, untill we cleaner solution. Needed to set the browsers scrollbar color theme */

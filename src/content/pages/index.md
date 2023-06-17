@@ -14,7 +14,7 @@ blocks:
       text: Recente projecten
       href: '#projecten'
     button_2:
-      text: Koffie?
+      text: Sterke koffie
       href: '#koffie'
     image:
       src: /hero.jpg

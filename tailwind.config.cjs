@@ -24,9 +24,9 @@ module.exports = {
       button: '"Inter", sans-serif',
     },
     fontWeight: {
-      heading: 600,
-      subheading: 600,
-      base: 400,
+      heading: 500,
+      subheading: 500,
+      base: 300,
       button: 500,
     },
     lineHeight: {

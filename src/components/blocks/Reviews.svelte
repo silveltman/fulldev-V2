@@ -15,11 +15,24 @@
   export let content: any
 </script>
 
-<Section>
+<Section class="overflow-x-hidden">
   <Container>
     <Stack>
       <Highlight>
-        <Heading>{content.heading}</Heading>
+        <Heading class="relative flex items-center gap-sm"
+          >{content.heading}
+          <Icon
+            class="group relative animate-spin cursor-pointer hover:animate-none"
+            name="mode_fan"
+            size={40}
+          >
+            mode_fan
+            <span
+              class="light-primary absolute bottom-full left-0 hidden rotate-12 text-sm font-button text-base-11 group-hover:block"
+              >Au, m'n vinger!</span
+            >
+          </Icon>
+        </Heading>
         <Text>{content.textarea}</Text>
       </Highlight>
       <Carousel class="large">
@@ -29,7 +42,7 @@
             <div class="flex gap-xs">
               {#each { length: 5 } as item}
                 <Icon
-                  class="light-primary text-base-9"
+                  class="light-primary text-base-9 "
                   name="star"
                   fill
                 />

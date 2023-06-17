@@ -19,7 +19,9 @@
   class="py-3xl"
 >
   <Container>
-    <Panel class="dark-primary relative !overflow-visible shadow-2xl lg:py-2xl">
+    <Panel
+      class="!max-lg:p-0 dark relative !overflow-visible shadow-2xl lg:py-2xl"
+    >
       <Stack
         row
         class="items-center"
@@ -33,13 +35,9 @@
               variant="solid"
               {...content.button_1}
             />
-            <!-- <Button
-              class="dark-primary"
-              {...content.button_1}
-            /> -->
           </svelte:fragment>
         </Highlight>
-        <div class="-right-px h-[150%] lg:absolute lg:w-1/2">
+        <div class="lg:absolute lg:-right-px lg:h-[150%] lg:w-1/2">
           <Image
             class="lg:h-full lg:w-full lg:object-cover"
             {...content.image}

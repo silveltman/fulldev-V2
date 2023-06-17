@@ -5,7 +5,7 @@
   export let content: any
 </script>
 
-<Section class="pt-0">
+<Section>
   <Container>
     <Stack row>
       {#each content.cols as col}
