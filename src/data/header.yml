@@ -1,10 +1,10 @@
 links:
-  - text: Home
-    href: /
-  - text: About
-    href: /about
-  - text: Products
-    href: /products
+  - text: Projecten
+    href: '#projecten'
+  - text: Over ons
+    href: '#over-ons'
+  - text: Fans
+    href: '#fans'
 button_1:
   text: Contact
   href: /contact

@@ -8,10 +8,11 @@
 <Section>
   <Container>
     <Stack row>
-      {#each content.cols as col}
-        <div class="flex">
+      {#each content.cols as col, i}
+        <div class="flex items-start gap-sm">
           <Icon
-            name="check_circle"
+            size={24}
+            name={col.icon}
             class="light-primary mr-sm mt-xs shrink-0 text-base-9"
           />
           <div>

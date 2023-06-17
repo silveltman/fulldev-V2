@@ -16,7 +16,7 @@
   export let content: any
 </script>
 
-<Section>
+<Section id="projecten">
   <Container>
     <Flow class="dark !gap-sm large">
       <Flow

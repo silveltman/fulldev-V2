@@ -23,12 +23,15 @@ blocks:
   features:
     _component: Features
     cols:
-      - heading: Vlotte communicatie.
-        textarea: Auctor netus sociis sit nulla. Convallis morbi integer tellus, donec habitant fermentum at pharetra vitae.
-      - heading: Razendsnelle laadtijd.
-        textarea: Auctor netus sociis sit nulla. Convallis morbi integer tellus, donec habitant fermentum at pharetra vitae.
-      - heading: Keiharde werkers.
-        textarea: Auctor netus sociis sit nulla. Convallis morbi integer tellus, donec habitant fermentum at pharetra vitae.
+      - heading: Imhoudelijke structuur.
+        textarea: Hier beginnen we mee, geen templates. De inhoud vormt de basis, zodat de bezoeker precies ziet wat 'ie moet zien.
+        icon: filter_alt
+      - heading: Effectief design.
+        textarea: Wat belangrijk is moet opvallen. We sturen de bezoeker naar jouw doel. Maximaal resultaat uit je website.
+        icon: palette
+      - heading: Schone code.
+        textarea: Nogmaals, geen templates. Wij bouwen op maat. We gebruiken alleen wat nodig is, zo blijft je website lightweight.
+        icon: data_object
 
   projects:
     _component: Projects

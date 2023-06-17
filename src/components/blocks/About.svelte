@@ -14,7 +14,7 @@
   export let content: any
 </script>
 
-<Section>
+<Section id="over-ons">
   <Container>
     <Stack
       row

@@ -17,7 +17,7 @@
     />
   {/each}
   <Button
-    class=" py-sm"
+    class="light-primary py-sm"
     variant="ringed"
     text="Contact"
     href="/contact"

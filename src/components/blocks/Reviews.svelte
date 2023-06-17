@@ -15,7 +15,10 @@
   export let content: any
 </script>
 
-<Section class="overflow-x-hidden">
+<Section
+  class="overflow-x-hidden"
+  id="fans"
+>
   <Container>
     <Stack>
       <Highlight>

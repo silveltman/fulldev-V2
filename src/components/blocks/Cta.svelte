@@ -14,36 +14,30 @@
   export let content: any
 </script>
 
-<Section
-  id="koffie"
-  class="py-3xl"
->
+<Section id="koffie">
   <Container>
-    <Panel
-      class="!max-lg:p-0 dark relative !overflow-visible shadow-2xl lg:py-2xl"
+    <Stack
+      row
+      class="items-center gap-0"
     >
-      <Stack
-        row
-        class="items-center"
+      <Panel
+        class="dark shadow-xl max-lg:rounded-b-[0px] lg:rounded-r-[0px] xl:py-2xl"
       >
         <Highlight class="lg:max-w-lg">
           <Heading>{content.heading}</Heading>
           <Text>{content.textarea}</Text>
-          <svelte:fragment slot="actions">
-            <Button
-              class="dark-primary"
-              variant="solid"
-              {...content.button_1}
-            />
-          </svelte:fragment>
-        </Highlight>
-        <div class="lg:absolute lg:-right-px lg:h-[150%] lg:w-1/2">
-          <Image
-            class="lg:h-full lg:w-full lg:object-cover"
-            {...content.image}
+          <Button
+            slot="actions"
+            class="dark-primary"
+            variant="solid"
+            {...content.button_1}
           />
-        </div>
-      </Stack>
-    </Panel>
+        </Highlight>
+      </Panel>
+      <Image
+        class="shadow-2xl max-lg:rounded-t-[0px]"
+        {...content.image}
+      />
+    </Stack>
   </Container>
 </Section>
