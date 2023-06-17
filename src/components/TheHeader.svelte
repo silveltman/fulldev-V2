@@ -5,7 +5,7 @@
   import { Button, Link, Logo, Navbar } from 'fulldev-ui'
 </script>
 
-<Navbar class=" max-sm:hidden">
+<Navbar class="">
   <Logo
     src={site.logo}
     alt="Logo Fulldev"
@@ -17,7 +17,7 @@
     />
   {/each}
   <Button
-    class="light-primary py-sm"
+    class="py-sm"
     variant="ringed"
     text="Contact"
     href="/contact"

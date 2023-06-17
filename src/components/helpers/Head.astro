@@ -2,6 +2,7 @@
 import site from '@data/site'
 import { SEO } from 'astro-seo'
 import Fonts from './Fonts.astro'
+import Favicon from './Favicon.astro'
 
 const pageSeo = Astro.props.seo
 const defaultSeo = {
@@ -32,3 +33,4 @@ const mergedSeo = {
 
 <SEO {...mergedSeo} />
 <Fonts />
+<Favicon />

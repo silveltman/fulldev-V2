@@ -7,6 +7,5 @@ const page = await getEntryBySlug('pages', 'index')
 ---
 
 <Layout seo={page.data.seo}>
-  <!-- Custom component go here -->
   <Blocks pageData={page.data} />
 </Layout>

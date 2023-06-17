@@ -2,6 +2,8 @@
 import site from '@data/site'
 import Head from '@components/helpers/Head.astro'
 import TheHeader from '@components/TheHeader.svelte'
+import TheFooter from '@components/TheFooter.svelte'
+import { Whatsapp } from 'fulldev-ui'
 
 const { seo } = Astro.props
 ---
@@ -14,9 +16,11 @@ const { seo } = Astro.props
   <head>
     <Head {seo} />
   </head>
-  <body class="">
+  <body class="flex flex-col overflow-x-hidden">
     <TheHeader />
     <slot />
+    <TheFooter />
+    <Whatsapp tel="https://wa.me/31683485163" />
     <style>
       /* Temporary, untill we cleaner solution. Needed to set the browsers scrollbar color theme */
       .color-scheme-dark {

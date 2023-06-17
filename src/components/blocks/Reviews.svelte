@@ -16,8 +16,8 @@
 </script>
 
 <Section
-  class="overflow-x-hidden"
   id="fans"
+  class="overflow-visible"
 >
   <Container>
     <Stack>

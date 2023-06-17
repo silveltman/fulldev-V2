@@ -1,20 +1,17 @@
-lists:
-  - heading: Products
-    links:
-      - text: Product A
-        href: /product-A
-      - text: Product B
-        href: /product-B
-      - text: Product C
-        href: /product-C
-      - text: Product D
-        href: /product-D
+links:
+  - text: Home
+    href: /
+  - text: Over ons
+    href: /over-ons
+  - text: Projecten
+    href: /projecten
+  - text: Contact
+    href: /contact
 
-  - heading: Company
-    links:
-      - text: About
-        href: /about
-      - text: Careers
-        href: /careers
-      - text: Contact
-        href: /contact
+socials:
+  - name: linkedin
+    href: 'https://www.linkedin.com/in/silveltman/'
+  - name: email
+    href: 'mailto:contact@full.dev'
+  - name: whatsapp
+    href: 'https://wa.me/31683485163'

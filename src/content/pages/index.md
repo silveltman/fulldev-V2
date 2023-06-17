@@ -34,7 +34,7 @@ blocks:
         icon: data_object
 
   projects:
-    _component: Projects
+    _component: ProjectPanels
     project_1:
       heading: Miele Witgoedcenter Amsterdam
       href: https://witgoedcenteramsterdam.nl

@@ -1,0 +1,12 @@
+---
+import { getEntryBySlug } from 'astro:content'
+import LayoutProse from '@layouts/LayoutProse.astro'
+
+const page = await getEntryBySlug('pages', 'over-ons')
+if (!page) throw new Error('Page not found')
+const { Content } = await page.render()
+---
+
+<LayoutProse seo={page.data.seo}>
+  <Content />
+</LayoutProse>
