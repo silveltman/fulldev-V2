@@ -16,7 +16,7 @@ blocks:
       text: Sterke koffie
       href: '#koffie'
     image:
-      src: /hero.jpg
+      src: /hero.webp
       alt: Kantoor Fulldev Groningen Moermanskweg 2-18
 
   features:
@@ -61,7 +61,7 @@ blocks:
       text: Meer over ons
       href: /over-ons
     image:
-      src: /about1.jpg
+      src: /about1.webp
       alt: Een sessie op kantoor bij Fulldev
 
   reviews:
@@ -88,6 +88,6 @@ blocks:
       text: Neem contact op
       href: /contact
     image:
-      src: /koffie.jpg
+      src: /koffie.webp
       alt: Een lekkere bak koffie bij Fulldev op kantoor in Groningen
 ---

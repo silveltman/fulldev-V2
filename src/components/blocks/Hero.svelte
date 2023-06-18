@@ -60,6 +60,7 @@
         class="shadow-3xl overflow-hidden lg:rounded-box"
       >
         <Image
+          sizes="100vw"
           class="rounded-0 object-cover"
           {...content.image}
         />

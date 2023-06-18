@@ -22,6 +22,7 @@
     >
       <Image
         class="lg:col-span-3"
+        sizes="100vw"
         {...content.image}
       />
       <Highlight class="lg:col-span-2">
