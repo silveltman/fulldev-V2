@@ -1,8 +1,7 @@
 ---
 seo:
   title: Fulldev - Web development & design Groningen
-  description:
-  image:
+  description: 'Geen templates, maar websites van deze tijd: 2023. Communiceren doen we ook niet meer via postduif, toch?'
 
 blocks:
   hero:
@@ -40,19 +39,19 @@ blocks:
       href: https://witgoedcenteramsterdam.nl
       image:
         src: /miele-witgoed.jpeg
-        alt:
+        alt: Miele Witgoedcenter Amsterdam
     project_2:
       heading: Leren Trainingsacteren
       href: https://lerentrainingsacteren.nl
       image:
         src: /trainingsacteren.jpg
-        alt:
+        alt: Leren Trainingsacteren
     project_3:
       heading: Van Dillen Antieke Bouwmaterialen
       href: https://vdabouwmaterialen.nl
       image:
         src: /bouwmaterialen.jpg
-        alt:
+        alt: Van Dillen Antieke Bouwmaterialen
 
   about:
     _component: About
@@ -63,7 +62,7 @@ blocks:
       href: /over-ons
     image:
       src: /about1.jpg
-      alt: Kantoor Fulldev Groningen Moermanskweg 2-18
+      alt: Een sessie op kantoor bij Fulldev
 
   reviews:
     _component: Reviews
@@ -90,5 +89,5 @@ blocks:
       href: /contact
     image:
       src: /koffie.jpg
-      alt: Kantoor Fulldev Groningen Moermanskweg 2-18
+      alt: Een lekkere bak koffie bij Fulldev op kantoor in Groningen
 ---

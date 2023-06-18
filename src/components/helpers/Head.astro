@@ -6,6 +6,7 @@ import Favicon from './Favicon.astro'
 
 const pageSeo = Astro.props.seo
 const defaultSeo = {
+  noindex: false,
   charset: 'UTF-8',
   titleDefault: site.name,
   openGraph: {
