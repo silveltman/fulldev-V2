@@ -13,7 +13,7 @@
   {#each header.links as link, i}
     <Link
       {...link}
-      class="{i == 0 && 'ml-auto'} light max-md:hidden"
+      class="{i == 0 && 'ml-auto'} light hidden md:block"
     />
   {/each}
   <Button
