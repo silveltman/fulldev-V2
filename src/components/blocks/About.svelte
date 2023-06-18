@@ -21,7 +21,6 @@
       class="items-center"
     >
       <Image
-        sizes="100vw"
         class="lg:col-span-3"
         {...content.image}
       />

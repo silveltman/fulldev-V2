@@ -14,7 +14,6 @@
   <Ratio {ratio}>
     <Image
       class="h-full w-full object-cover transition-transform group-hover:scale-105"
-      sizes="100vw"
       {...content.image}
     />
   </Ratio>

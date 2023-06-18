@@ -36,7 +36,6 @@
             />
           </Highlight>
           <Image
-            sizes="100vw"
             class="h-full w-full object-cover"
             {...content.image}
           />

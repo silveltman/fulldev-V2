@@ -35,7 +35,6 @@
         </Highlight>
       </Panel>
       <Image
-        sizes="100vw"
         class="shadow-2xl max-lg:rounded-t-[0px]"
         {...content.image}
       />

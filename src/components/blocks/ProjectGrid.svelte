@@ -34,7 +34,6 @@
           href={card.href}
         >
           <Image
-            sizes="100vw"
             slot="media"
             {...card.image}
           />
