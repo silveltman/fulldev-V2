@@ -8,6 +8,7 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
+    "jampack": "jampack ./dist",
     "browsersync": "browser-sync start --server 'dist' --files 'dist'",
     "astro": "astro",
     "cache-remote-images": "node cacheRemoteImages.js",
