@@ -5,7 +5,7 @@
   import { Social, Link, Logo, Section, Container, Stack } from 'fulldev-ui'
 </script>
 
-<Section class="mt-auto border-t border-base-6 bg-base-2 py-0">
+<Section class="mt-auto grow-0 border-t border-base-6 bg-base-2 !py-0">
   <Container class="flex flex-col items-center">
     <div class="mx-auto flex flex-col items-center gap-md py-xl">
       <Logo

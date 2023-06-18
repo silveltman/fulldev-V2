@@ -364,17 +364,14 @@
     undici "^5.22.1"
     whatwg-mimetype "^3.0.0"
 
-"@divriots/jampack@^0.11.4":
-  version "0.11.4"
-  resolved "https://registry.yarnpkg.com/@divriots/jampack/-/jampack-0.11.4.tgz#fadd5a7e2d76c34e504f69243c302bbe5811e13c"
-  integrity sha512-goZ7HaWuDhGECbpECuiHDGwg2mrWUY72qhlzyQAHw+4qezYkV5JPFF8sjQ22ThM9xM3q7uDnvhA++EfOgUx4mA==
+"@divriots/jampack@^0.13.0":
+  version "0.13.0"
+  resolved "https://registry.yarnpkg.com/@divriots/jampack/-/jampack-0.13.0.tgz#a99d9f08206504fde6752f4f4cc49fbc9a3d22d2"
+  integrity sha512-dbabgBRrslF/HA4Nmv0HgQnU7n5FdIrD5WRPCz5U4Wy3T3Ff0j2o3vsLx4M3FMPEO7uZ2B8fQXw9IFwb4XHEKw==
   dependencies:
     "@divriots/cheerio" "1.0.0-rc.12"
     "@proload/core" "^0.3.3"
     "@swc/core" "^1.3.57"
-    "@types/html-minifier-terser" "^7.0.0"
-    "@types/sharp" "^0.32.0"
-    "@types/svgo" "^3.0.0"
     commander "^10.0.1"
     deepmerge "^4.3.1"
     file-type "^18.4.0"
@@ -388,6 +385,7 @@
     sharp "^0.32.1"
     svgo "^3.0.2"
     table "^6.8.1"
+    undici "^5.22.1"
 
 "@emmetio/abbreviation@^2.2.3":
   version "2.2.3"
@@ -921,11 +919,6 @@
   dependencies:
     "@types/unist" "*"
 
-"@types/html-minifier-terser@^7.0.0":
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/@types/html-minifier-terser/-/html-minifier-terser-7.0.0.tgz#a316cad70201de31bcc1a97cf8b73b26ae46ad65"
-  integrity sha512-hw3bhStrg5e3FQT8qZKCJTrzt/UbEaunU1xRWJ+aNOTmeBMvE3S4Ml2HiiNnZgL8izu0LFVkHUoPFXL1s5QNpQ==
-
 "@types/json5@^0.0.30":
   version "0.0.30"
   resolved "https://registry.yarnpkg.com/@types/json5/-/json5-0.0.30.tgz#44cb52f32a809734ca562e685c6473b5754a7818"
@@ -983,20 +976,6 @@
   integrity sha512-pSAff4IAxJjfAXUG6tFkO7dsSbTmf8CtUpfhhZ5VhkRpC4628tJhh3+V6H1E+/Gs9piSzYKT5yzHO5M4GG9jkw==
   dependencies:
     "@types/node" "*"
-
-"@types/sharp@^0.32.0":
-  version "0.32.0"
-  resolved "https://registry.yarnpkg.com/@types/sharp/-/sharp-0.32.0.tgz#fc3ac6df6b456319bae807c3d24efdc6631cdd6f"
-  integrity sha512-OOi3kL+FZDnPhVzsfD37J88FNeZh6gQsGcLc95NbeURRGvmSjeXiDcyWzF2o3yh/gQAUn2uhh/e+CPCa5nwAxw==
-  dependencies:
-    sharp "*"
-
-"@types/svgo@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@types/svgo/-/svgo-3.0.0.tgz#73692ce7de65333f3f73cc7b79710f36de27ccd4"
-  integrity sha512-G5qLWNq/rMvSM1EyY4E2iEd+s9km/PxLkzPkA2lghrgWJ2jrVMuB1ZsGOzL4YAWCy5sAoUw7SEQseHE2qypF2w==
-  dependencies:
-    svgo "*"
 
 "@types/unist@*", "@types/unist@^2.0.0":
   version "2.0.6"
@@ -4228,7 +4207,7 @@ server-destroy@^1.0.1:
   resolved "https://registry.yarnpkg.com/server-destroy/-/server-destroy-1.0.1.tgz#f13bf928e42b9c3e79383e61cc3998b5d14e6cdd"
   integrity sha512-rb+9B5YBIEzYcD6x2VKidaa+cqYBJQKnU4oe4E3ANwRRN56yk/ua1YCJT1n21NTS8w6CcOclAKNP3PhdCXKYtQ==
 
-sharp@*, sharp@^0.32.1:
+sharp@^0.32.1:
   version "0.32.1"
   resolved "https://registry.yarnpkg.com/sharp/-/sharp-0.32.1.tgz#41aa0d0b2048b2e0ee453d9fcb14ec1f408390fe"
   integrity sha512-kQTFtj7ldpUqSe8kDxoGLZc1rnMFU0AO2pqbX6pLy3b7Oj8ivJIdoKNwxHVQG2HN6XpHPJqCSM2nsma2gOXvOg==
@@ -4511,7 +4490,7 @@ svelte@^3.59.1:
   resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.59.1.tgz#3de3d56b9165748f32f3131589b8d183cabe7449"
   integrity sha512-pKj8fEBmqf6mq3/NfrB9SLtcJcUvjYSWyePlfCqN9gujLB25RitWK8PvFzlwim6hD/We35KbPlRteuA6rnPGcQ==
 
-svgo@*, svgo@^3.0.2:
+svgo@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/svgo/-/svgo-3.0.2.tgz#5e99eeea42c68ee0dc46aa16da093838c262fe0a"
   integrity sha512-Z706C1U2pb1+JGP48fbazf3KxHrWOsLme6Rv7imFBn5EnuanDW1GPaA/P1/dvObE670JDePC3mnj0k0B7P0jjQ==

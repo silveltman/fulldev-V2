@@ -14,6 +14,7 @@
   <Ratio {ratio}>
     <Image
       class="h-full w-full object-cover transition-transform group-hover:scale-105"
+      sizes="100vw"
       {...content.image}
     />
   </Ratio>
@@ -22,13 +23,7 @@
   />
   <div
     class="absolute inset-0 flex h-full w-full items-center justify-center opacity-0 transition-opacity group-hover:opacity-75"
-  >
-    <!-- <IconEye
-      class="relative text-white  transition-opacity"
-      size={40}
-      stroke={1}
-    /> -->
-  </div>
+  />
   <Heading
     secondary
     class=" absolute bottom-md left-md"

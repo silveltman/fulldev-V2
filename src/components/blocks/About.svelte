@@ -21,12 +21,13 @@
       class="items-center"
     >
       <Image
+        sizes="100vw"
         class="lg:col-span-3"
         {...content.image}
       />
       <Highlight class="lg:col-span-2">
         <Heading>{content.heading}</Heading>
-        <Text>{content.textarea}</Text>
+        <Text class="!text-base-11">{content.textarea}</Text>
         <Button
           class="light-primary"
           slot="actions"

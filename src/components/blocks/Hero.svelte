@@ -61,6 +61,7 @@
       >
         <Image
           class="rounded-0 object-cover"
+          sizes="100vw"
           {...content.image}
         />
         <div class="absolute inset-0 h-full w-full bg-black/50" />

@@ -24,7 +24,7 @@
   <Container>
     <Stack
       row
-      class="!gap-md"
+      class="items-start !gap-md"
     >
       <Panel class="dark bg-base-1 !p-0 large">
         <Stack class="!gap-0">
@@ -36,6 +36,7 @@
             />
           </Highlight>
           <Image
+            sizes="100vw"
             class="h-full w-full object-cover"
             {...content.image}
           />
@@ -47,42 +48,54 @@
             <Stack>
               <div class="flex items-center gap-md">
                 <Button
-                  href="/"
+                  href="tel:31683485163"
                   class="light-orange"
                 >
-                  <Icon name="circle" />
+                  <Icon name="phone" />
                 </Button>
                 <div class="flex flex-col gap-xs">
                   <Heading
                     secondary
-                    text="test"
+                    text="Bellen"
                   />
                   <Text
                     secondary
-                    text="test"
+                    text="316 83485163"
+                  />
+                </div>
+              </div>
+              <div class="flex items-center gap-md">
+                <Button
+                  href="mailto:contact@full.dev"
+                  class="light-orange"
+                >
+                  <Icon name="mail" />
+                </Button>
+                <div class="flex flex-col gap-xs">
+                  <Heading
+                    secondary
+                    text="Mailen"
+                  />
+                  <Text
+                    secondary
+                    text="contact@full.dev"
                   />
                 </div>
               </div>
               <div class="flex gap-sm">
-                <Social
-                  name="facebook"
-                  href="#"
-                />
-                <Social
-                  name="instagram"
-                  href="#"
-                />
-                <Social
-                  name="linkedin"
-                  href="#"
-                />
+                {#each footer.socials as social, i}
+                  <Social {...social} />
+                {/each}
               </div>
             </Stack>
           </Panel>
 
           <!-- FORM -->
           <Panel class="light-primary">
-            <Form>
+            <Form
+              key="fulldev"
+              action="/bedankt"
+            >
               <div class="flex flex-col">
                 <Text
                   secondary
@@ -100,26 +113,9 @@
                   secondary
                   class="!text-base-11"
                   as="label"
-                  text="Email"
+                  text="Email / telefoon"
                 />
-                <Input
-                  label="Email"
-                  id="email"
-                  type="email"
-                />
-              </div>
-              <div class="flex flex-col">
-                <Text
-                  secondary
-                  class="!text-base-11"
-                  as="label"
-                  text="Telefoon"
-                />
-                <Input
-                  label="Telefoon"
-                  id="telefoon"
-                  type="tel"
-                />
+                <Input id="email-tel" />
               </div>
               <div class="flex flex-col">
                 <Text

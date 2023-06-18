@@ -9,7 +9,7 @@ blocks:
     _component: Hero
     eyebrow: Web development & design Groningen
     heading: Modern design en innovatieve technieken
-    textarea: Wij maken websites van deze tijd. Zeg dag tegen slome laadtijd, irritante plugins en slechte communicatie.
+    textarea: 'Geen templates, maar websites van deze tijd: 2023. Communiceren doen we ook niet meer via postduif, toch?'
     button_1:
       text: Recente projecten
       href: '#projecten'
@@ -45,7 +45,7 @@ blocks:
       heading: Leren Trainingsacteren
       href: https://lerentrainingsacteren.nl
       image:
-        src: /trainingsacteren.webp
+        src: /trainingsacteren.jpg
         alt:
     project_3:
       heading: Van Dillen Antieke Bouwmaterialen
@@ -56,11 +56,11 @@ blocks:
 
   about:
     _component: About
-    heading: Gedreven Noorderlingen
-    textarea: Auctor netus sociis sit nulla. Convallis morbi integer tellus, donec habitant fermentum at pharetra vitae. Convallis morbi integer tellus, donec habitant fermentum at pharetra vitae.
+    heading: Kracht van het Noorden
+    textarea: Met onze nuchterheid staan wij bekend "to under-sell and over-deliver". Vanuit ons ruime en lichte kantoor in Groningen werken wij keihard aan succesvolle websites.
     button:
       text: Meer over ons
-      href: https://www.linkedin.com/in/silveltman/
+      href: /over-ons
     image:
       src: /about1.jpg
       alt: Kantoor Fulldev Groningen Moermanskweg 2-18
@@ -68,7 +68,7 @@ blocks:
   reviews:
     _component: Reviews
     heading: We hebben fans
-    textarea: Auctor netus sociis sit nulla. Convallis morbi integer tellus, donec habitant fermentum at pharetra vitae.
+
     cards:
       - heading: Aloys Spijkerman
         textarea: Sil heeft voor ons de site chaletsinfriesland gemaakt naar zeer tevredenheid. Wij zijn hem ook dankbaar dat hij voor de verhuur smoobu heeft geadviseerd. Er is geen betere!
@@ -84,13 +84,10 @@ blocks:
   cta:
     _component: Cta
     heading: Zin in koffie?
-    textarea: Auctor netus sociis sit nulla. Convallis morbi integer tellus, donec habitant fermentum at pharetra vitae. Convallis morbi integer tellus, donec habitant fermentum at pharetra vitae.
+    textarea: Persoonlijk contact is belangrijk, en dat doen wij het liefst onder het genot van een lekkere bak koffie. Neem contact op voor een goed gesprek.
     button_1:
       text: Neem contact op
-      href: '#'
-    button_2:
-      text: Meer over ons
-      href:
+      href: /contact
     image:
       src: /koffie.jpg
       alt: Kantoor Fulldev Groningen Moermanskweg 2-18

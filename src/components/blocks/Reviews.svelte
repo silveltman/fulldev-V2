@@ -36,7 +36,7 @@
             >
           </Icon>
         </Heading>
-        <Text>{content.textarea}</Text>
+        <!-- <Text>{content.textarea}</Text> -->
       </Highlight>
       <Carousel class="large">
         {#each content.cards as card}
@@ -51,7 +51,10 @@
                 />
               {/each}
             </div>
-            <Text secondary>{card.textarea}</Text>
+            <Text
+              class="!text-base-11"
+              secondary>{card.textarea}</Text
+            >
           </Card>
         {/each}
       </Carousel>

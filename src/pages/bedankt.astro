@@ -1,0 +1,32 @@
+---
+import Layout from '@layouts/Layout.astro'
+import {
+  Button,
+  Container,
+  Section,
+  Heading,
+  Highlight,
+  Text,
+} from 'fulldev-ui'
+
+const seo = {
+  noindex: true,
+}
+---
+
+<Layout seo={seo}>
+  <Section class="large">
+    <Container>
+      <Highlight center>
+        <Heading as="h1">Bedankt!</Heading>
+        <Text>We zullen zo snel mogelijk contact met je opnemen.</Text>
+        <Button
+          class="light-primary"
+          slot="actions"
+          href="/"
+          text="terug naar home"
+        />
+      </Highlight>
+    </Container>
+  </Section>
+</Layout>

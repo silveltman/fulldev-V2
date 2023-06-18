@@ -5,24 +5,30 @@ seo:
   image:
 ---
 
-# Over Fulldev
+# Over ons, Fulldev
 
-Fulldev is geboren uit een passie voor techniek en design. Gevestigd in het prachtige Groningen zijn we begonnen met het bouwen van websites voor kleine lokale bedrijven. Oprichters Sil Veltman en Robbin Kok hebben beide hun roots in het Noorden van Nederland, Sil in Bolsward en Robbin in Assen.
+Fulldev is geboren uit een passie voor techniek en design. Gevestigd in het prachtige Groningen zijn we begonnen met het bouwen van websites voor lokale bedrijven. Inmiddels doen we dit door het hele land, maar die nuchterheid uit het Noorden hebben we nogsteeds. Hierbij staan we bekend to under-sell en over-deliver.
 
-Midden in Groningen werken we nu vanuit ons mooie, ruime en lichte kantoorpand. Hier komen onze expertises op het gebied van design en development samen en creëren we websites die niet alleen mooi zijn, maar ook functioneel en effectief. Ons doel is om bedrijven te helpen groeien en hun online aanwezigheid te verbeteren.
+In Groningen stad werken we vanuit ons mooie, ruime en lichte kantoorpand. Hier komen onze expertises op het gebied van design en development samen en creëren we websites die niet alleen mooi zijn, maar ook functioneel en effectief. Onze missie is om de best mogelijke website ervaringen te creëeren: de iOS van de websites.
 
-![Kantoor Fulldev Groningen Moermanskweg 2-18](/cta.jpg)
+![Kantoor Fulldev Groningen Moermanskweg 2-18](/kantoor.jpg)
 
-Ons team van professionals bestaat uit developers, designers en marketingexperts. Met jarenlange ervaring en een gedreven team, brengen we elk project tot een succesvol eindresultaat. Van concept tot lancering, we begeleiden onze klanten gedurende het hele proces en hebben altijd de beste oplossingen in gedachten voor hun specifieke behoeften.
-
-![Kantoor Fulldev Groningen Moermanskweg 2-18](/about.jpg)
-
-Bij Fulldev hechten we veel waarde aan persoonlijk contact. We geloven dat open communicatie en samenwerking essentieel zijn voor de beste resultaten. Daarom zorgen we voor een intensieve en transparante samenwerking met onze klanten. We ontwerpen en bouwen de perfect website voor hun doelgroep en dragen op die manier bij aan hun zakelijk succes.
-
-Onze expertise en passie voor online marketing gecombineerd met ons toegewijde team zorgen ervoor dat we resultaten kunnen leveren die aansluiten bij de behoeften van de klant. We hebben gewerkt voor een breed scala aan klanten over allerlei sectoren en blijven altijd op de hoogte van de laatste ontwikkelingen in de markt.
+Ons team van professionals bestaat uit developers, designers en onze consultant Robbin. Met jarenlange ervaring en een gedreven team gaan we altijd voor een succesvol eindresultaat. Van concept tot lancering, we begeleiden onze klanten gedurende het hele proces en hebben altijd sepcifieke oplossingen in gedachten voor hun behoeften.
 
 ![Kantoor Fulldev Groningen Moermanskweg 2-18](/hero.jpg)
 
-## Neem contact op
+Bij Fulldev hechten we veel waarde aan persoonlijk contact. We geloven dat open communicatie en samenwerking essentieel zijn voor de beste resultaten. Daarom zorgen we voor een intensieve en transparante samenwerking met onze klanten. We ontwerpen en bouwen de perfect website voor hun doelgroep en dragen op die manier bij aan hun zakelijk succes.
 
-Wil je meer weten over wat Fulldev kan bieden om jouw online aanwezigheid te verbeteren? Of heb je een vraag over een specifiek project of dienst? Neem dan contact met ons op via telefoon of e-mail, we helpen je graag verder!
+![Kantoor Fulldev Groningen Moermanskweg 2-18](/bellen.jpg)
+
+Onze voornaamste kracht, dat blijft de techniek. Elke dag weer focussen wij ons op het maken van een websites die feilloos werken. Nét weer een honderdste van een seconde sneller, en nét weer gebruiksvriendelijke dan de rest. Dit zal altijd onze focus blijven
+
+![Kantoor Fulldev Groningen Moermanskweg 2-18](/coderen.jpg)
+
+## We kunnen ook jou helpen
+
+Wil je met ons in gesprek gaan? Of heb je een vraag over een specifiek project of dienst? Neem dan contact met ons op via telefoon of email en we helpen je graag verder!
+
+Bellen: [316 83485163](tel:31683485163)
+
+Mailen: [contact@full.dev](mailto:contact@full.dev)

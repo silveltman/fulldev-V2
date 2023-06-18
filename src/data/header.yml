@@ -4,9 +4,7 @@ links:
   - text: Projecten
     href: /projecten
   - text: Over ons
-    href: '#over-ons'
-  - text: Fans
-    href: '#fans'
+    href: '/over-ons'
 button_1:
   text: Contact
   href: /contact

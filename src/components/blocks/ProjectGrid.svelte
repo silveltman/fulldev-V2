@@ -29,10 +29,12 @@
     >
       {#each content.cards as card}
         <Card
+          target="_blank"
           box
           href={card.href}
         >
           <Image
+            sizes="100vw"
             slot="media"
             {...card.image}
           />

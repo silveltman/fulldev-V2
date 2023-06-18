@@ -8,7 +8,7 @@ blocks:
   hero:
     _component: Contact
     heading: Let's smash it!
-    textarea: Wij maken websites van deze tijd. Zeg dag tegen slome laadtijd, irritante plugins en slechte communicatie.
+    textarea: Of je nou aan de slag wilt gaan, of vragen hebt, contact met ons opnemen kan altijd.
     image:
       src: /smash-it.jpg
       alt:
