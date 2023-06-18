@@ -31,7 +31,7 @@
     "astro-seo": "^0.7.2",
     "autoprefixer": "^10.4.14",
     "cssnano": "^6.0.1",
-    "fulldev-ui": "^0.5.15",
+    "fulldev-ui": "^0.5.16",
     "google-fonts-helper": "^3.3.0",
     "rippleui": "^1.12.1",
     "svelte": "^3.59.1",
