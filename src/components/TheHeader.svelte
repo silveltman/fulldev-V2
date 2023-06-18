@@ -17,7 +17,7 @@
     />
   {/each}
   <Button
-    class="py-sm max-md:ml-auto"
+    class="ml-auto  py-sm md:ml-0"
     variant="ringed"
     text="Contact"
     href="/contact"
