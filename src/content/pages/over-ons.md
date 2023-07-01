@@ -1,9 +1,10 @@
 ---
 seo:
-  title: Fulldev - Web development & design Groningen
-  description: Fulldev is geboren uit een passie voor techniek en design. Gevestigd in het prachtige Groningen in een ruim en licht kantoor.
+  title: Over Fulldev - Web development & design Groningen
+  description: >-
+    Fulldev is geboren uit een passie voor techniek en design. Gevestigd in het
+    prachtige Groningen in een ruim en licht kantoor.
 ---
-
 # Over ons, Fulldev
 
 Fulldev is geboren uit een passie voor techniek en design. Gevestigd in het prachtige Groningen zijn we begonnen met het bouwen van websites voor lokale bedrijven. Inmiddels doen we dit door het hele land, maar die nuchterheid uit het Noorden hebben we nogsteeds. Hierbij staan we bekend to under-sell en over-deliver.
