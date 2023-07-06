@@ -9,7 +9,7 @@ blocks:
   hero:
     _component: Hero
     eyebrow: Web development & design Groningen
-    heading: Modern design en innovatieve technieken
+    heading: Strak design en moderne technieken
     textarea: >-
       In 2023 hoort een website geen last te zijn. Geen templates of oude
       systemen. Wij maken jouw bedrijf online zichtbaar en jouw leven een stuk
