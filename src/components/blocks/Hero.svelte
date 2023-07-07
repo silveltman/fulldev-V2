@@ -21,7 +21,7 @@
   <Stack>
     <Container>
       <Highlight
-        class="relative max-w-lg"
+        class="relative large:!max-w-2xl"
         center
       >
         <Text
