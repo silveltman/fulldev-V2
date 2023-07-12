@@ -27,8 +27,8 @@ interface Site {
 }
 
 const site: Site = {
-  name: 'Company Name',
-  url: 'https://localhost:3000',
+  name: 'Fulldev',
+  url: 'https://full.dev',
   image: '/logo.svg',
   logo: '/logo.svg',
   lang: 'nl',
